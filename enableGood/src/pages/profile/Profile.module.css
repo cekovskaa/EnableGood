@@ -1,0 +1,515 @@
+.profile-container {
+  min-height: 100vh;
+
+  padding: 60px;
+}
+
+.profile-content {
+  display: flex;
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Left Sidebar Styles */
+.profile-sidebar {
+  flex: 0 0 380px;
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.profile-photo-wrapper {
+  position: relative;
+  padding-top: 30%;
+  background-color: #012961;
+  border-radius: 12px 12px 0 0;
+  margin: -2rem -2rem 0 -2rem;
+  overflow: visible;
+}
+
+.profile-photo {
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #012961;
+  border-radius: 50%;
+}
+
+.profile-photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-actions {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  width: 60%;
+  margin-inline: auto;
+}
+
+.upload-btn,
+.delete-btn {
+  padding: 5px 15px;
+  border-radius: 25px;
+  font-size: 13px;
+  font-weight: 300;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.upload-btn {
+  background: #003366;
+  color: white;
+  border: none;
+}
+
+.delete-btn {
+  background: white;
+  color: #012961;
+  border: 1px solid #012961;
+}
+
+.verify-btn {
+  width: 50%;
+  padding: 5px;
+  margin-top: 30px;
+  background-color: #fdff64;
+  border: 1px solid #012960;
+  color: #012960;
+  border-radius: 25px;
+  font-weight: 400;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.profile-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 2rem 0;
+}
+
+.tab-btn {
+  background-color: white;
+  padding-inline: 15px;
+  padding-block: 7px;
+  font-size: 18px;
+  font-weight: 300;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+  text-align: start;
+}
+
+.tab-btn:hover {
+  background: #f5f5f5;
+}
+
+.logout-btn {
+  width: 50%;
+  margin-inline: auto;
+  padding: 5px;
+  background-color: #012961;
+  border: 1.5px solid #012961;
+  color: white;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: auto;
+}
+
+.logout-btn:hover {
+  background-color: transparent;
+  color: #012960;
+}
+
+/* Right Content Area Styles */
+.profile-main {
+  flex: 1;
+  background: white;
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.content-section {
+  max-width: 100%;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  background-color: white;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: none;
+  border: none;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.form-textarea {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  background-color: white;
+}
+
+.file-upload-area {
+  margin-block: 20px;
+  padding: 10px;
+  border: 1px dashed #8e8e8e;
+
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.file-upload-area:hover {
+  border-color: #003366;
+  background: #f5f5f5;
+}
+
+.upload-icon {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.upload-icon i {
+  font-size: 20px;
+  color: #003366;
+}
+
+.upload-text {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.25rem;
+}
+
+.upload-subtext {
+  font-size: 10px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.browse-btn {
+  padding: 5px 25px;
+  background: #003366;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  gap: 1rem;
+}
+
+.delete-account-btn,
+.cancel-subscription-btn {
+  padding: 5px 20px;
+  background-color: white;
+  color: #012961;
+  border: 1px solid #012961;
+  border-radius: 25px;
+  font-size: 10px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.delete-account-btn:hover,
+.cancel-subscription-btn:hover {
+  background-color: #f5f5f5;
+  border-color: #d32f2f;
+  color: #d32f2f;
+}
+
+.save-btn {
+  padding: 8px 35px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.save-btn:hover:not(:disabled) {
+  background: #004080;
+}
+
+.save-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Save Message Styles */
+.save-message {
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  animation: slideIn 0.3s ease-out;
+}
+
+.save-message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.save-message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Input with Clear Button */
+.input-with-clear,
+.textarea-with-clear {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-with-clear .form-input {
+  padding-right: 2.5rem;
+}
+
+.textarea-with-clear {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.textarea-with-clear .form-textarea {
+  padding-right: 2.5rem;
+}
+
+.clear-btn {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  z-index: 1;
+}
+
+.textarea-with-clear .clear-btn {
+  top: 0.75rem;
+  transform: none;
+}
+
+.clear-btn:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.clear-btn i {
+  font-size: 0.75rem;
+}
+
+/* Field Error Styles */
+.field-error {
+  display: block;
+  color: #dc2626;
+  font-size: 12px;
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+.form-input.error {
+  border: 1px solid #dc2626;
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1);
+}
+
+/* Success Notification Styles */
+.success-notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  animation: slideInFromRight 0.5s ease-out,
+    slideOutToRight 0.5s ease-in 2.5s forwards;
+}
+
+.notification-content {
+  background: linear-gradient(135deg, #28a745, #20c997);
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(40, 167, 69, 0.3);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: 500;
+  min-width: 250px;
+  border-left: 4px solid #1e7e34;
+}
+
+.notification-content i {
+  font-size: 1.25rem;
+  color: white;
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutToRight {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+/* Payment Tab Styles */
+.payment-item {
+  margin-bottom: 20px;
+}
+
+.payment-box {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  background-color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .profile-content {
+    flex-direction: column;
+  }
+
+  .profile-sidebar {
+    flex: 1;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    padding: 1rem;
+  }
+
+  .profile-sidebar,
+  .profile-main {
+    padding: 1.5rem;
+  }
+
+  .profile-actions {
+    flex-direction: column;
+  }
+
+  .delete-account-btn,
+  .cancel-subscription-btn,
+  .save-btn {
+    width: 50%;
+    padding: 8px;
+  }
+
+  .profile-photo-wrapper {
+    margin: -1.5rem -1.5rem 0 -1.5rem;
+  }
+}

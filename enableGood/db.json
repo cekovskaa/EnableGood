@@ -1,0 +1,216 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "test@enablegood.com",
+      "password": "password123",
+      "name": "Test Company",
+      "role": "user",
+      "createdAt": "2024-01-15T10:30:00Z",
+      "organizationName": "Test Company Inc",
+      "country": "United States",
+      "sector": "Technology",
+      "website": "https://testcompany.com",
+      "mission": "Making a positive impact through technology",
+      "partnershipGoals": [
+        "Find Partners",
+        "Join Projects"
+      ],
+      "selectedSDGs": [
+        "Climate Action",
+        "Quality Education",
+        "Decent Work and Economic Growth"
+      ],
+      "partnerTypes": [
+        "Companies",
+        "NGOs"
+      ],
+      "esgPillars": [
+        "Environmental",
+        "Social"
+      ],
+      "subscriptionPlan": "Collaborator",
+      "savedPartnerIds": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7",
+        "p8"
+      ]
+    },
+    {
+      "id": "2",
+      "email": "zeko@gmail.com",
+      "password": "zeko12345",
+      "name": "zeko org",
+      "role": "user",
+      "createdAt": "2025-09-21T16:07:28.381Z",
+      "organizationName": "zeko org",
+      "country": "Macedonia",
+      "sector": "Tech",
+      "website": "",
+      "mission": "",
+      "partnershipGoals": [
+        "join-projects"
+      ],
+      "selectedSDGs": [
+        "Zero Hunger",
+        "Gender Equality",
+        "Decent Work and Economic Growth"
+      ],
+      "partnerTypes": [
+        "Companies",
+        "NGOs"
+      ],
+      "esgPillars": [
+        "Social"
+      ],
+      "subscriptionPlan": "Leader",
+      "savedPartnerIds": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p8"
+      ]
+    },
+    {
+      "id": "3",
+      "email": "test@gmail.com",
+      "password": "testtest123",
+      "name": "test organization",
+      "role": "user",
+      "createdAt": "2025-09-24T14:11:48.191Z",
+      "organizationName": "test organization",
+      "country": "Macedonia",
+      "sector": "Health",
+      "website": "https://test.com",
+      "mission": "Test description hagvdgevvegv",
+      "partnershipGoals": [
+        "find-partners"
+      ],
+      "selectedSDGs": [
+        "No Poverty",
+        "Zero Hunger",
+        "Gender Equality"
+      ],
+      "partnerTypes": [
+        "Companies"
+      ],
+      "esgPillars": [
+        "Social"
+      ],
+      "subscriptionPlan": "Leader",
+      "savedPartnerIds": []
+    },
+    {
+      "id": "4",
+      "email": "makoOrg@gmail.com",
+      "password": "mako12345",
+      "name": "Mako",
+      "role": "user",
+      "createdAt": "2025-09-24T14:58:55.380Z",
+      "organizationName": "Mako Organization",
+      "country": "Slovenia",
+      "sector": "Law",
+      "website": "https://test.com",
+      "mission": "",
+      "partnershipGoals": [
+        "join-projects"
+      ],
+      "selectedSDGs": [
+        "No Poverty",
+        "Quality Education",
+        "Affordable and Clean Energy"
+      ],
+      "partnerTypes": [
+        "NGOs"
+      ],
+      "esgPillars": [
+        "Environmental"
+      ],
+      "subscriptionPlan": "Explorer",
+      "savedPartnerIds": []
+    },
+    {
+      "id": "5",
+      "email": "testOrganization@gmail.com",
+      "password": "test12345",
+      "name": "Testing",
+      "role": "user",
+      "createdAt": "2025-10-05T15:09:22.151Z",
+      "organizationName": "Testing Organization",
+      "country": "Macedonia",
+      "sector": "Tech",
+      "website": "https://testing.com",
+      "mission": "Testing mission...",
+      "partnershipGoals": [
+        "join-projects",
+        "find-partners"
+      ],
+      "selectedSDGs": [
+        "Climate Action",
+        "Clean Water and Sanitation",
+        "Quality Education"
+      ],
+      "partnerTypes": [
+        "Companies"
+      ],
+      "esgPillars": [
+        "Environmental",
+        "Social",
+        "Governance"
+      ],
+      "subscriptionPlan": "Explorer",
+      "savedPartnerIds": [
+        "p1",
+        "p3",
+        "p4",
+        "p5",
+        "p6"
+      ]
+    },
+    {
+      "id": "6",
+      "email": "cekovska.angela@gmail.com",
+      "password": "ceko12345",
+      "name": "Angel",
+      "role": "user",
+      "createdAt": "2025-10-06T09:42:40.084Z",
+      "organizationName": "Ceko Organization",
+      "country": "Macedonia",
+      "sector": "Tech",
+      "website": "https://ceko.com",
+      "mission": "Mission message...",
+      "partnershipGoals": [
+        "join-projects",
+        "find-partners"
+      ],
+      "selectedSDGs": [
+        "Quality Education",
+        "Clean Water and Sanitation",
+        "Climate Action"
+      ],
+      "partnerTypes": [
+        "Companies",
+        "NGOs"
+      ],
+      "esgPillars": [
+        "Environmental",
+        "Social"
+      ],
+      "subscriptionPlan": "Leader",
+      "savedPartnerIds": [
+        "p7",
+        "p6",
+        "p2",
+        "p5"
+      ]
+    }
+  ]
+}

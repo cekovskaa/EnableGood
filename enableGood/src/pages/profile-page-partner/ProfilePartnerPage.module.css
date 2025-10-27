@@ -1,0 +1,208 @@
+.profile-header-container {
+  width: 85%;
+  margin-inline: auto;
+  padding-top: 30px;
+}
+
+.company-logo {
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+.golden-badge {
+  width: 45px;
+  height: 60px;
+}
+
+.company-desc {
+  font-size: 16px;
+}
+
+.calendar-logo {
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #012960;
+  color: white;
+  font-size: 25px;
+}
+
+.btn-fnc {
+  width: 100%;
+  padding-block: 6px;
+  border-radius: 25px;
+  border: 1.5px solid #012960;
+  color: #012960;
+}
+
+.contact-btn {
+  background-color: #012960;
+  color: white;
+}
+
+.contact-btn:hover {
+  background-color: transparent;
+  color: #012960;
+}
+
+.follow-btn {
+  background-color: transparent;
+}
+
+.follow-btn:hover {
+  background-color: #012960;
+  color: white;
+}
+
+.stats-box {
+  background-color: #012960;
+  color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.stats-box h3 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.stats-box p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.info-tag {
+  padding: 7px 35px;
+  border: 1.5px solid #012960;
+  border-radius: 8px;
+  color: #012960;
+  font-weight: 300;
+  background-color: transparent;
+  cursor: default;
+}
+
+.nav-tabs-container {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  padding: 8px 20px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.nav-tab-btn {
+  padding: 12px 28px;
+  border: none;
+  background-color: white;
+  color: #0c0c0c;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+.nav-tab-btn:hover {
+  background-color: #f5f5f5;
+}
+
+.nav-tab-active {
+  background-color: #012960 !important;
+  color: white !important;
+}
+
+.company-logo-bordered {
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .profile-header-container {
+    width: 90%;
+    padding-top: 20px;
+  }
+
+  .company-desc {
+    font-size: 15px;
+  }
+
+  .calendar-logo {
+    padding: 12px;
+    font-size: 20px;
+  }
+
+  .info-tag {
+    padding: 6px 20px;
+    font-size: 14px;
+  }
+
+  /* Nav Tabs Mobile */
+  .nav-tabs-container {
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px;
+  }
+
+  .nav-tab-btn {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .company-desc {
+    font-size: 14px;
+  }
+
+  .stats-box {
+    padding: 20px;
+  }
+
+  .stats-box h3 {
+    font-size: 28px;
+  }
+
+  .stats-box p {
+    font-size: 10px;
+  }
+
+  .info-tag {
+    padding: 5px 15px;
+    font-size: 13px;
+  }
+
+  .nav-tab-btn {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .tags-container {
+    overflow-x: auto;
+    flex-wrap: nowrap !important;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+
+  .tags-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+
+  .info-tag {
+    flex-shrink: 0; /* Prevent tags from shrinking */
+    white-space: nowrap;
+  }
+
+  
+}

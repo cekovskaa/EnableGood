@@ -1,0 +1,605 @@
+.projects-filter-container {
+  margin-block: 25px;
+}
+
+.project-filters-headings {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+.project-filters-headings h3 {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  align-items: center;
+  padding-block: 15px;
+  padding-inline: 20px;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/* 🔹 New: dropdown styling */
+.filter-dropdown .dropdown-toggle {
+  min-width: 200px;
+  text-align: left;
+  border: 1px solid #ecedef;
+  font-size: 13px;
+  color: black;
+  padding-block: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-dropdown .btn:hover,
+.filter-dropdown .btn:focus {
+  background-color: transparent;
+  color: inherit;
+  box-shadow: none;
+}
+
+.filter-dropdown .selected-filter {
+  background-color: #012961 !important;
+  color: #fff !important;
+  border-color: #012961 !important;
+}
+
+/* Remove default Bootstrap caret */
+.filter-dropdown .dropdown-toggle::after {
+  display: none !important;
+}
+
+.projects-grid {
+  display: flex;
+  gap: 1.8rem;
+  overflow-x: auto;
+  padding: 1rem 0;
+  scroll-snap-type: x mandatory;
+}
+
+.project-card {
+  flex: 0 0 410px; /* fixed card width */
+  height: 460px;
+  scroll-snap-align: start;
+  background-color: #f5e38d;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.project-card-account {
+  flex: 0 0 365px;
+  height: 460px;
+  scroll-snap-align: start;
+  background-color: #f5e38d;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+/* Project Carousel Styles */
+.project-carousel-container {
+  margin: 2rem 0;
+  position: relative;
+  width: 100%;
+}
+
+.project-carousel-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.project-carousel {
+  display: flex;
+  gap: 1.5rem;
+  overflow: hidden;
+  width: 100%;
+  justify-content: center;
+  padding: 0 60px; /* Space for absolute positioned arrows */
+}
+
+.carousel-btn {
+  background: #012960;
+  border: none;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-btn-left {
+  left: -5%;
+}
+
+.carousel-btn-right {
+  right: -5%;
+}
+
+.carousel-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.carousel-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.carousel-indicator.active {
+  background: #012960;
+  transform: scale(1.2);
+}
+
+.carousel-indicator:hover {
+  background: #012960;
+  opacity: 0.7;
+}
+
+.projects-grid::-webkit-scrollbar {
+  display: none;
+}
+.projects-grid {
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none; /* Firefox */
+  scroll-behavior: smooth;
+}
+
+.project-header {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.project-card .project-title,
+.project-card-account .project-title {
+  margin-bottom: 25px;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.project-description {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.project-impact {
+  font-size: 13px;
+  margin-bottom: 1rem;
+}
+
+.partners {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.partner-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.project-card .badges,
+.project-card-account .badges {
+  padding: 10px 20px;
+  border: 1.5px solid black;
+  font-size: 13px;
+  border-radius: 10px;
+}
+
+.view-link-wrapper {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+}
+
+.view-link {
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+}
+
+.view-link:hover {
+  color: #bba121;
+}
+
+.filter-buttons .btn {
+  padding: 10px 23px;
+  border-radius: 30px;
+  transition: all 0.2s ease-in;
+}
+
+.filter-buttons .btn:hover {
+  background-color: transparent;
+  color: #487e4a;
+  border: 1.5px solid #487e4a;
+}
+
+.btn-clear {
+  background-color: white;
+  border: 1.5px solid #012961;
+  color: #012961;
+}
+
+.btn-apply {
+  background-color: #012961;
+  color: white;
+}
+
+.project-overview {
+  padding-inline: 25px;
+  padding-block: 30px;
+  background: linear-gradient(to bottom, #f4e48e, #f3e9d9);
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.173);
+}
+
+.project-overview h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: black;
+}
+
+.project-overview p,
+.project-overview span {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.project-overview .small-span {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.green-badges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  color: white;
+  margin-bottom: 28px;
+}
+
+.green-badges span {
+  width: 100%;
+  padding-block: 18px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.badge-first {
+  background-color: #01714b;
+}
+
+.badge-second {
+  background-color: #487e4a;
+}
+
+.badge-third {
+  background-color: #238b23;
+}
+
+.partners-logos {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.partners-logos img {
+  width: 120px;
+  height: 110px;
+  margin-right: 15px;
+}
+
+.partners-logos .stc-img {
+  width: 80px;
+  height: 80px;
+}
+
+.view-partner-link {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  width: 45%;
+  padding-block: 8px;
+  background-color: #012961;
+  border: 1.5px solid #012961;
+  color: #fff;
+  border-radius: 25px;
+  transition: all 0.2s ease-in;
+}
+
+.view-partner-link:hover {
+  background-color: transparent;
+  color: #012961;
+}
+
+.project-image {
+  width: 100%;
+  height: 450px;
+  object-fit: contain;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: white;
+  cursor: pointer;
+
+  transition: transform 0.2s ease-in-out;
+}
+
+.play-icon:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.close-video {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  z-index: 10;
+}
+
+@media (max-width: 768px) {
+  .filter-row {
+    flex-direction: column;
+    gap: 12px;
+    padding-inline: 15px;
+    padding-block: 15px;
+  }
+
+  .filter-dropdown {
+    width: 100%;
+  }
+
+  .filter-dropdown .dropdown-toggle {
+    min-width: 100%;
+    width: 100%;
+    font-size: 14px;
+    padding-block: 12px;
+    padding-inline: 15px;
+  }
+
+  .project-filters-headings {
+    margin-bottom: 15px;
+  }
+
+  .project-filters-headings h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .project-filters-headings p {
+    font-size: 12px;
+  }
+
+  .filter-buttons {
+    display: flex;
+    gap: 10px;
+  }
+
+  .filter-buttons .btn {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  /* Make dropdowns more compact */
+  .filter-dropdown .dropdown-menu {
+    max-height: 250px;
+    overflow-y: auto;
+  }
+
+  /* Project overview adjustments */
+  .project-overview {
+    padding-inline: 15px;
+    padding-block: 20px;
+  }
+
+  .project-overview h2 {
+    font-size: 22px;
+    width: 100% !important;
+  }
+
+  .project-overview p {
+    font-size: 13px;
+  }
+
+  .green-badges {
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .green-badges span {
+    padding-block: 12px;
+    font-size: 14px;
+  }
+
+  .view-partner-wrapper {
+    text-align: center;
+  }
+
+  .view-partner-link {
+    width: 100%;
+  }
+
+  .video-container {
+    height: 300px;
+  }
+
+  .project-image {
+    height: 300px;
+  }
+
+  .partners-logos {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .projects-filter-container {
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+
+  .partners-logos img {
+    width: 75px;
+    height: 75px;
+    margin-right: 8px;
+  }
+
+  .partners-logos .stc-img {
+    width: 55px;
+    height: 55px;
+    margin-right: 15px;
+  }
+
+  .project-filters-headings h3 {
+    font-size: 18px;
+  }
+
+  .project-filters-headings p {
+    font-size: 10px;
+  }
+
+  .filter-buttons {
+    display: flex;
+  }
+
+  .filter-buttons .btn {
+    padding: 2px 15px;
+    font-size: 16px;
+  }
+
+  .filter-row {
+    gap: 10px;
+    padding: 12px;
+  }
+
+  .filter-dropdown .dropdown-toggle {
+    font-size: 13px;
+    padding-block: 10px;
+    padding-inline: 12px;
+  }
+
+  .project-overview h2 {
+    font-size: 20px;
+  }
+
+  .project-overview p,
+  .project-overview span {
+    font-size: 12px;
+  }
+
+  .green-badges span {
+    padding-block: 10px;
+    font-size: 13px;
+  }
+
+  .video-container {
+    height: 250px;
+  }
+
+  .project-image {
+    height: 250px;
+  }
+
+  .project-card {
+    flex: 0 0 382px;
+    height: 380px;
+  }
+}
+
+/* Mobile Responsive for Carousel */
+@media (max-width: 768px) {
+  .project-carousel {
+    padding: 0 40px; /* Less padding on mobile */
+  }
+
+  .carousel-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .carousel-btn-left {
+    left: -10px;
+  }
+
+  .carousel-btn-right {
+    right: -10px;
+  }
+
+  .project-carousel {
+    gap: 1rem; /* Smaller gap on mobile */
+  }
+}

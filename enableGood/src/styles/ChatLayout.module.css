@@ -1,0 +1,11 @@
+.chat-layout {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.chat-container {
+  flex: 1;
+  display: flex;
+  min-width: 0; /* Prevents flex item from overflowing */
+}

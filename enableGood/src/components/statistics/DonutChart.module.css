@@ -1,0 +1,100 @@
+/* Card Styles */
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 35px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #f0f0f0;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 24px 0;
+}
+
+/* Statistics Section */
+.stats-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+
+.stats-label {
+  font-size: 14px;
+  color: black;
+  font-weight: 400;
+}
+
+.monthly-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 24px 0;
+}
+
+/* Chart Container */
+.chart-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+/* Legend */
+.legend {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 80%;
+  margin-inline: auto;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.legend-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.legend-color[data-color="completed"] {
+  background: #238b23;
+}
+
+.legend-color[data-color="in-progress"] {
+  background: #f3e391;
+}
+
+.legend-color[data-color="planning"] {
+  background: #6b8eae;
+}
+
+.legend-color[data-color="stalled"] {
+  background: #f47d6a;
+}
+
+.legend-item span:nth-child(2) {
+  flex: 1;
+  font-size: 14px;
+  color: #374151;
+}
+
+.legend-value {
+  font-weight: 600;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+
+  .card{
+    padding: 15px;
+  }
+}

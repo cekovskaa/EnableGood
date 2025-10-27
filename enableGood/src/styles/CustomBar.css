@@ -1,0 +1,119 @@
+.bar-chart-wrapper .highcharts-root {
+  width: 100%;
+}
+
+.bar-chart-wrapper .highcharts-container {
+  width: 100% !important;
+}
+
+/* Custom Legend Styles */
+.custom-legend {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  padding-left: 28px;
+  font-size: 12px;
+  user-select: none;
+}
+
+.legend-item input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.radio-custom {
+  position: absolute;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: all 0.3s;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Color for All Goals - Black */
+.legend-item.all .radio-custom {
+  border-color: #022961;
+}
+
+.legend-item.all input:checked ~ .radio-custom {
+  background-color: #022961;
+  border-color: #022961;
+}
+
+/* Color for Environmental - Green */
+.legend-item.environmental .radio-custom {
+  border-color: #238b23;
+}
+
+.legend-item.environmental input:checked ~ .radio-custom {
+  background-color: #238b23;
+  border-color: #238b23;
+}
+
+/* Color for Social - Blue */
+.legend-item.social .radio-custom {
+  border-color: #698eae;
+}
+
+.legend-item.social input:checked ~ .radio-custom {
+  background-color: #698eae;
+  border-color: #698eae;
+}
+
+/* Color for Governance - Red */
+.legend-item.governance .radio-custom {
+  border-color: #e2725c;
+}
+
+.legend-item.governance input:checked ~ .radio-custom {
+  background-color: #e2725c;
+  border-color: #e2725c;
+}
+
+/* Font Awesome checkmark when checked */
+.radio-custom::after {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f00c";
+  color: white;
+  font-size: 15px;
+  display: none;
+}
+
+.legend-item input:checked ~ .radio-custom::after {
+  display: block;
+}
+
+.highcharts-credits {
+  fill: white !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #141414;
+    color: #ffffff;
+  }
+
+  /* .legend-item {
+    font-size: 10px;
+  }
+
+  .custom-legend {
+    gap: 10px;
+  } */
+}

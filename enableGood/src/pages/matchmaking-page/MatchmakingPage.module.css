@@ -1,0 +1,433 @@
+.matchmaking-subtitle {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.see-saved-btn {
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+  color: #0c0c0c;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 25px;
+  transition: all 0.2s ease;
+}
+
+.see-saved-btn:hover {
+  background-color: #012960;
+  color: white;
+}
+
+.save-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: transparent;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 10px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.save-btn:hover {
+  transform: scale(1.05);
+}
+
+.save-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(400px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.swipe-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: transparent;
+  border: 1.5px solid #000000;
+  color: black;
+  font-size: 30px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.swipe-btn:hover:not(:disabled) {
+  border-color: #012960;
+  background-color: #012960;
+  color: white;
+}
+
+.swipe-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.swipe-text {
+  font-size: 16px;
+  font-weight: 300;
+  color: black;
+  position: absolute;
+  top: 60%;
+}
+
+.partner-card {
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 60px 40px 40px;
+  position: relative; /* important for absolute children */
+  width: 500px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.circle-background {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 420px;
+  height: auto;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.logo-container {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  /* box-shadow: 0 0 0 20px rgba(255, 192, 203, 0.15),
+    0 0 0 40px rgba(255, 192, 203, 0.1), 0 0 0 60px rgba(255, 192, 203, 0.05); */
+}
+
+.partner-logo {
+  width: 280px;
+  height: 280px;
+  object-fit: contain;
+}
+
+.vector-image {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 320px;
+  height: auto;
+  z-index: 1;
+}
+
+.matching-percentage {
+  position: absolute;
+  bottom: 14px;
+  left: 52%;
+  transform: translateX(-50%);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  z-index: 2;
+}
+
+.matching-span {
+  font-size: 15px;
+}
+
+.action-buttons {
+  display: flex;
+
+  gap: 15px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.primary-btn,
+.secondary-btn {
+  flex: 1;
+  padding: 8px 24px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1.5px solid #012960;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-btn {
+  background-color: #012960;
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: transparent;
+  color: #012960;
+  border: 1.5px solid #012960;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  color: #012960;
+}
+
+.secondary-btn:hover {
+  background-color: #012960;
+  color: white;
+}
+
+.partner-info {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.partner-name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 8px 0;
+}
+
+.partner-details {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.help-widget {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1000;
+}
+
+/* Button help styles */
+.help-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #012960;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 35px;
+  height: 35px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  padding: 0 16px;
+}
+
+.help-text {
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+  opacity: 0;
+  max-width: 0;
+  overflow: hidden;
+}
+
+.help-btn i {
+  font-size: 15px;
+  flex-shrink: 0;
+}
+
+/* Expand on hover */
+.help-btn:hover {
+  width: 130px;
+  justify-content: space-between;
+}
+
+.help-btn:hover .help-text {
+  opacity: 1;
+  max-width: 100px;
+}
+
+/* help box */
+.help-box {
+  background-color: #f9fafb;
+  border: 1px solid #012960;
+  border-radius: 8px;
+  padding-inline: 8px;
+  padding-block: 10px;
+  width: 280px;
+}
+
+.help-title {
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  color: #9ea2ae;
+}
+
+.help-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons-group {
+  display: flex;
+  gap: 8px;
+  font-size: 20px;
+  color: #012960;
+}
+
+.arrow-icon {
+  padding: 6px;
+  background-color: #012960;
+  border-radius: 8px;
+  font-size: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .partner-card {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .matchmaking-subtitle {
+    margin-top: 40px;
+  }
+
+  .swipe-btn {
+    width: 50px;
+    height: 35px;
+    font-size: 15px;
+  }
+
+  .partner-logo {
+    width: 250px;
+    height: 250px;
+  }
+
+  .vector-image {
+    bottom: -10px;
+    width: 280px;
+  }
+
+  .matching-span {
+    font-size: 12px;
+  }
+
+  .matching-percentage {
+    bottom: 33px;
+    font-size: 30px;
+  }
+
+  .circle-background {
+    width: 290px;
+    bottom: 50px;
+  }
+
+  .swipe-text {
+    display: none;
+  }
+
+  .help-btn {
+    display: none;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .vector-image {
+    width: 230px;
+    bottom: 15px;
+  }
+
+  .partner-logo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .circle-background {
+    width: 250px;
+    bottom: 70px;
+  }
+
+  .matching-percentage {
+    bottom: 45px;
+    font-size: 27px;
+  }
+
+  .swipe-btn {
+    width: 55px;
+  }
+}

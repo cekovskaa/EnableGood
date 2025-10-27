@@ -1,0 +1,395 @@
+.info-section {
+  background-color: transparent;
+}
+.main-content {
+  padding-top: 20px;
+}
+
+.project-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.info-group {
+  margin-bottom: 25px;
+}
+
+.info-label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 4px;
+}
+
+.info-value {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  line-height: 1.6;
+}
+
+.contacts-list {
+  margin-top: 8px;
+}
+
+.contact-item {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+}
+
+.documents-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.documents-label {
+  font-size: 16px;
+  font-weight: 300;
+  color: #022961;
+}
+
+.download-button {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #012960;
+  border: none;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.contact-button {
+  padding: 8px 40px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #012960;
+  border: 1.5px solid #012960;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: transparent;
+  color: #012960;
+}
+
+.hero-image-container {
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 490px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Organizations Section */
+.organizations-section {
+  margin-bottom: 60px;
+}
+
+.org-card {
+  padding: 36px 32px;
+  border-radius: 8px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.org-card-teal {
+  background-color: #086a75;
+}
+
+.org-card-navy {
+  background-color: #012961;
+}
+
+.org-title {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.org-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.org-button {
+  display: inline-block;
+  padding: 8px 50px;
+  background-color: #fdff64;
+  border: 1.5px solid #fdff64;
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 25px;
+  text-decoration: none;
+  text-align: center;
+  align-self: flex-start;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.org-button:hover {
+  background-color: transparent;
+
+  color: #fdff64;
+}
+
+/* Overview Section */
+.overview-section {
+  margin-top: 130px;
+  margin-bottom: 80px;
+}
+
+.section-title {
+  font-size: 45px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 50px;
+}
+
+.overview-text {
+  font-size: 17px;
+  font-weight: 300;
+  color: #000;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+/* Goals Section */
+.goals-section {
+  margin-bottom: 130px;
+}
+
+.goals-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 24px;
+}
+
+.goal-item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.goal-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.goal-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  line-height: 1.6;
+  flex: 1;
+}
+
+/* Circle Image */
+.circle-image-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.circle-image {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.circle-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 350px;
+}
+
+.vector-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay-content {
+  position: absolute;
+  bottom: 35px;
+  left: 52%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.percentage {
+  font-size: 48px;
+  font-weight: 500;
+  color: #000;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.location-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+}
+
+/* Statistics Section */
+.statistics-section {
+  margin-bottom: 60px;
+}
+
+.stat-card {
+  display: block;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  height: 200px;
+}
+
+.stat-card:hover {
+  transform: translateY(-4px);
+}
+
+.stat-card-yellow {
+  background-color: #f3e391;
+}
+
+.stat-card-red {
+  background-color: #f47d6a;
+}
+
+.stat-card-green {
+  background-color: #ceefc2;
+}
+
+.stat-number {
+  font-size: 40px;
+  font-weight: 500;
+  color: #000;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.stat-label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  margin-top: 20px;
+  line-height: 1.3;
+}
+
+.stat-description {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000;
+  line-height: 1.6;
+  margin-top: 25px;
+}
+
+/* Responsive */
+@media (max-width: 425px) {
+  .section-title {
+    font-size: 28px;
+  }
+
+  .org-title{
+    font-size: 35px;
+  }
+
+  .overview-text,
+  .goal-text {
+    font-size: 16px;
+  }
+
+  .circle-image-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .circle-overlay {
+    left: 16px;
+  }
+
+  .percentage {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-title {
+    font-size: 24px;
+  }
+
+  .overview-text,
+  .goal-text {
+    font-size: 15px;
+  }
+
+  .stat-number {
+    font-size: 36px;
+  }
+
+  .stat-label {
+    font-size: 16px;
+  }
+
+  .stat-description {
+    font-size: 14px;
+  }
+
+  .percentage {
+    font-size: 36px;
+  }
+
+  .location-text {
+    font-size: 16px;
+  }
+
+  .overlay-content {
+    bottom: 20px;
+  }
+}

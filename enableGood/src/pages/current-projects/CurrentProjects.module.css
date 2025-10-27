@@ -1,0 +1,209 @@
+/* Grid Layout */
+.projects-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.right-section {
+  display: flex;
+}
+
+/* Card Styles */
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.card-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 27px;
+}
+
+/* Project Progress Styles */
+.project-item {
+  margin-bottom: 20px;
+}
+
+.project-item:last-child {
+  margin-bottom: 24px;
+}
+
+.project-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 8px;
+}
+
+.project-name {
+  font-weight: 500;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+
+.tag {
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-size: 8px;
+  font-weight: 500;
+}
+
+.tag[data-tag="no-poverty"] {
+  background: #de2f42;
+  color: white;
+}
+
+.tag[data-tag="quality-education"] {
+  background: #c02a36;
+  color: white;
+}
+
+.tag[data-tag="climate-action"] {
+  background: #487e49;
+  color: white;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  background: #f3f4f6;
+  border-radius: 3px;
+
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #2a8467;
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  font-size: 12px;
+  margin-right: 10px;
+  color: black;
+  font-weight: 400;
+}
+
+/* New Projects Grid */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.project-image img {
+  width: 100%;
+  height: 120px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  position: relative;
+}
+
+.project-tag {
+  position: absolute;
+  top: 40%;
+  left: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 500;
+  color: white;
+}
+
+.project-tag i {
+  margin-right: 4px;
+  color: white;
+}
+
+.bg-green {
+  background-color: #487e4a;
+}
+
+.bg-pink {
+  background-color: #da2882;
+}
+
+.project-info {
+  padding: 20px;
+}
+
+.project-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 6px 0;
+}
+
+.project-description {
+  font-size: 12px;
+  color: #6b7280;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* See all links */
+.see-all-link {
+  color: #012960;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.see-all-link:hover {
+  color: #012960c6;
+}
+
+@media (max-width: 768px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+    margin-top: 0;
+  }
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .right-section {
+    display: block;
+  }
+
+  .left-section {
+    margin-top: 25px;
+  }
+  .project-image img {
+    height: 200px;
+  }
+
+  .project-tag {
+    top: 55%;
+  }
+
+  
+}

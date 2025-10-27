@@ -1,0 +1,498 @@
+.onboarding-section {
+  background-color: rgba(254, 253, 236, 1);
+  padding-block: 100px;
+}
+
+/* Step labels */
+
+.step-labels {
+  margin-bottom: 0.5rem;
+}
+
+.step-label {
+  font-size: 18px;
+  margin: 0;
+  transition: color 0.3s ease, font-weight 0.3s ease;
+}
+
+.step-completed {
+  color: #012960;
+  font-weight: 600;
+}
+
+.step-pending {
+  color: #6c757d;
+  font-weight: 400;
+}
+
+.progress {
+  background-color: #e9ecef;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.progress-bar {
+  width: 0%;
+  height: 100%;
+  background-color: #012960;
+  border-radius: 0 15px 15px 0;
+  transition: width 0.5s ease;
+}
+
+.active {
+  width: 22%;
+}
+
+.badge-procent {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+
+/* NGO card */
+
+.card-ngo {
+  cursor: not-allowed;
+  background-color: #0a6974;
+  pointer-events: none;
+  padding: 15px;
+  height: 300px;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+}
+
+.arrow-logo {
+  position: absolute;
+  bottom: 30px;
+  right: 55px;
+  font-size: 10px;
+  color: black;
+  padding: 10px 13px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* Company card */
+
+.card-company {
+  background-color: #012960;
+  color: white;
+  padding: 15px;
+  height: 300px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card-company-selected {
+  opacity: 0.9;
+}
+
+.btn-continue {
+  font-size: 15px;
+  border: none;
+  background-color: #012960;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 25px;
+}
+
+/* Company details styles */
+
+.custom-input {
+  border: none;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+  padding-block: 13px;
+}
+
+.custom-input:focus {
+  outline: none;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+  border: none;
+}
+
+.custom-headings {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.custom-text {
+  font-size: 16px;
+  color: black;
+}
+
+.textarea-custom {
+  border: none;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  line-height: 20px;
+}
+
+.textarea-custom:focus {
+  border: none;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+.sdg-btn {
+  padding-block: 20px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in;
+  text-align: center;
+  width: 100%;
+}
+
+.sdg-btn.selected {
+  background: #086a75;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.sdg-btn.disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.btn-next {
+  background-color: #012960;
+  font-weight: 300;
+  color: white;
+  padding: 8px 30px;
+  cursor: pointer;
+  border: 1.5px solid #012960;
+  border-radius: 25px;
+  width: 23%;
+}
+
+.btn-next:hover {
+  background-color: transparent;
+  color: #012960;
+}
+
+.btn-back {
+  background-color: transparent;
+  font-weight: 300;
+  color: #012960;
+  padding: 8px 30px;
+  cursor: pointer;
+  border: 1.5px solid #012960;
+  border-radius: 25px;
+  width: 23%;
+}
+
+.btn-back:hover {
+  background-color: #012960;
+  color: white;
+}
+
+/* Preferences page */
+
+.custom-padding {
+  padding-top: 150px;
+}
+
+/* Documents page */
+
+.document-heading {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.document-text-bold {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.document-text-small {
+  font-size: 12px;
+}
+
+.custom-border {
+  border: 1px dashed #575653;
+}
+
+.upload-logo {
+  font-size: 25px;
+  color: #012960;
+}
+
+.upload-heading {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.upload-p {
+  font-size: 10px;
+}
+
+.browse-btn {
+  background-color: #012960;
+  color: #fff;
+  font-size: 10px;
+  padding: 5px 30px;
+  border: 1px solid #012960;
+  border-radius: 25px;
+}
+
+.document-text-medium {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.btn-later {
+  background-color: transparent;
+  color: #012960;
+  border: 1.5px solid #012960;
+  border-radius: 25px;
+  padding: 5px 50px;
+}
+
+.btn-later:hover {
+  background-color: #012960;
+  color: white;
+}
+
+.btn-sub-plan {
+  background-color: #012960;
+  color: white;
+  border: 1.5px solid #012960;
+  border-radius: 25px;
+  padding: 5px 30px;
+}
+
+.btn-sub-plan:hover {
+  background-color: transparent;
+  color: #012960;
+}
+
+/* Subscription - Plan styles */
+
+.leader-plan-heading h1 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.leader-plan-heading p {
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.plan-info {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.plan-features {
+  background-color: rgb(246, 221, 211);
+  padding-block: 50px;
+}
+
+.features-list li:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.features-list li {
+  line-height: 2;
+  font-weight: 300;
+}
+
+/* Welcome Aboard Page Styles */
+
+.welcome-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #fefdec;
+}
+
+.left-circles {
+  position: absolute;
+  left: 0;
+  top: 70%;
+  transform: translateY(-50%);
+  width: 400px;
+  height: 400px;
+  background-image: url("/src/assets/images/welcome-design1.png");
+  background-size: contain;
+  background-position: center left;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.right-circles {
+  position: absolute;
+  right: 0;
+  top: 30%;
+  transform: translateY(-50%);
+  width: 200px;
+  height: 400px;
+  background-image: url("/src/assets/images/welcome-design2.png");
+  background-size: contain;
+  background-position: center right;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.content-wrapper {
+  position: relative;
+  text-align: center;
+  padding: 0 2rem;
+  z-index: 2;
+}
+
+.welcome-title {
+  font-size: 35px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.welcome-subtitle {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 0;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+/* Onboarding Error page styles */
+
+.btn-loggin-in {
+  padding: 10px 40px;
+  border-radius: 25px;
+  border: 1.5px solid #012960;
+  color: #012960;
+  background-color: transparent;
+}
+
+.btn-go-home {
+  padding: 10px 40px;
+  border-radius: 25px;
+  border: 1.5px solid #012960;
+  color: white;
+  background-color: #012960;
+}
+
+@media (max-width: 425px) {
+  .onboarding-section {
+    padding-block: 50px;
+  }
+
+  .sdg-btn {
+    font-size: 14px;
+    padding-block: 15px;
+  }
+
+  .custom-headings {
+    font-size: 25px;
+  }
+
+  .custom-text {
+    font-size: 14px;
+  }
+
+  .btn-back,
+  .btn-next {
+    width: 50%;
+    padding: 5px;
+  }
+
+  .step-labels {
+    margin-bottom: 0.75rem;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .step-label {
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    background-color: rgba(1, 41, 96, 0.1);
+    margin: 2px;
+    text-align: center;
+    min-width: 80px;
+  }
+
+  .step-completed {
+    background-color: #012960;
+    color: white;
+    font-weight: 600;
+  }
+
+  .step-pending {
+    background-color: rgba(108, 117, 125, 0.1);
+    color: #6c757d;
+    font-weight: 400;
+  }
+
+  .progress {
+    height: 16px;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+  }
+
+  .progress-bar {
+    border-radius: 0 12px 12px 0;
+  }
+
+  .badge-procent {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #012960;
+    background-color: rgba(1, 41, 96, 0.1);
+    padding: 6px 12px;
+    border-radius: 16px;
+    margin: 0 auto;
+    width: fit-content;
+  }
+
+  .mobile-btns {
+    flex-direction: column;
+  }
+
+  .btn-later,
+  .btn-sub-plan {
+    padding-block: 5px;
+    padding-inline: 15px;
+  }
+
+  .left-circles {
+    top: 90%;
+    width: 250px;
+    height: 300px;
+  }
+  .right-circles {
+    top: 12%;
+    width: 150px;
+  }
+
+  .welcome-subtitle {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .welcome-title {
+    font-size: 27px;
+  }
+
+  .welcome-subtitle {
+    font-size: 13px;
+  }
+}

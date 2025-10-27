@@ -1,0 +1,177 @@
+/* Learn hero styles */
+.learn-hero {
+  background-color: transparent;
+  padding-top: 50px;
+}
+
+.learn-hero-img {
+  width: 100%;
+  height: 400px;
+}
+
+.learn-hero h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.learn-hero p {
+  font-size: 13px;
+}
+
+.learn-hero h3 {
+  font-size: 18px;
+  margin-block: 40px;
+  font-weight: 600;
+}
+
+.learn-hero-video-wrapper {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.learn-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* video overlay */
+.video-overlay-banner {
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  width: 100%;
+  background-color: #f5e48d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in;
+}
+
+.video-overlay-banner:hover {
+  background: #f5e48dcd;
+}
+
+.video-overlay-banner i {
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+/* Close button */
+.close-video-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  padding: 13px 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* 
+Path filter buttons styles */
+.path-filters {
+  padding-block: 80px;
+}
+
+.path-filters h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.filter-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.filter-label {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 12px;
+  font-size: 25px;
+  font-weight: 400;
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+
+  transition: all 0.2s ease;
+}
+
+.filter-label {
+  font-weight: 700;
+  font-size: 23px;
+  width: 20%;
+}
+
+@media (max-width: 425px) {
+  .learn-hero {
+    padding-top: 0;
+  }
+
+  .learn-hero-img {
+    height: 80%;
+  }
+
+  .video-overlay-banner {
+    bottom: 120px;
+    padding: 10px 15px;
+  }
+
+  .path-filters {
+    padding-top: 0;
+    padding-bottom: 40px;
+  }
+
+  .path-filters h2 {
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+
+  .filter-group {
+    gap: 10px;
+  }
+
+  .filter-btn,
+  .filter-label {
+    padding: 14px;
+    font-size: 15px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .filter-label {
+    width: 50%;
+  }
+}
+
+@media (max-width: 375px) {
+  .filter-label {
+    width: 90%;
+  }
+
+  .video-overlay-banner {
+    bottom: 80px;
+    padding: 7px 25px;
+  }
+
+  .learn-hero-video-wrapper {
+    height: 300px;
+  }
+}

@@ -1,0 +1,35 @@
+.learninghub-container {
+  width: 85%;
+  margin-inline: auto;
+  padding-block: 30px;
+}
+
+.slider-header {
+  margin-bottom: 40px;
+  margin-left: 70px;
+}
+
+.slider-header h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+}
+
+.slider-header p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+@media (max-width: 425px) {
+
+  .slider-header {
+    margin-bottom: 30px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .learninghub-container{
+    padding-bottom: 15px;
+  }
+}

@@ -1,0 +1,396 @@
+.about-section {
+  background-color: rgba(254, 253, 236, 1);
+  padding-block: 140px;
+  overflow: hidden;
+}
+
+.about-container {
+  width: 90%;
+  margin-inline: auto;
+  margin-top: 50px;
+}
+
+.about-us-image {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #3e5d87;
+  position: relative;
+  z-index: 2;
+}
+
+.about-heading {
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.about-paragrapgh {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.about-smaller-heading {
+  font-size: 18px;
+  font-size: 600;
+}
+
+.about-img-container {
+  position: relative;
+  display: inline-block;
+}
+
+.about-circle-design {
+  position: absolute;
+  top: 90px;
+  right: 20%;
+  bottom: 40px;
+  left: 40%;
+  z-index: 1;
+  width: 430px;
+}
+
+/* About page second section */
+
+.second-about-section {
+  background-color: #f6ddd3;
+  padding-top: 50px;
+  padding-bottom: 150px;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.second-container {
+  width: 90%;
+  margin-inline: auto;
+  margin-top: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.second-section-heading {
+  margin-bottom: 80px;
+}
+
+.second-section-heading h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.second-section-heading p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.value-card {
+  position: relative;
+  display: inline-block;
+}
+
+.about-circle-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.value-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background-color: #f47d6a;
+  clip-path: ellipse(50% 125% at 50% -25%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.value-overlay-text {
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.background-circles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.background-circle {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  opacity: 0.6;
+}
+
+.background-circle:nth-child(1) {
+  width: 50px;
+  height: 50px;
+  top: 70%;
+  left: 5%;
+  background-color: rgb(244, 200, 199);
+}
+
+.background-circle:nth-child(2) {
+  width: 70px;
+  height: 70px;
+  top: 70%;
+  left: 20%;
+  background-color: rgba(244, 200, 199, 0.881);
+}
+
+.background-circle:nth-child(3) {
+  width: 60px;
+  height: 60px;
+  bottom: 10%;
+  left: 10%;
+  background-color: rgba(244, 200, 199, 0.848);
+}
+
+.background-circle:nth-child(4) {
+  width: 50px;
+  height: 50px;
+  bottom: 15%;
+  left: 35%;
+  background-color: rgba(244, 200, 199, 0.735);
+}
+
+.background-circle:nth-child(5) {
+  width: 70px;
+  height: 70px;
+  bottom: 20%;
+  left: 50%;
+  background-color: rgba(244, 200, 199, 0.873);
+}
+
+.background-circle:nth-child(6) {
+  width: 60px;
+  height: 60px;
+  bottom: 15%;
+  left: 70%;
+  background-color: rgba(244, 200, 200, 0.87);
+}
+
+.background-circle:nth-child(7) {
+  width: 50px;
+  height: 50px;
+  bottom: 10%;
+  right: 10%;
+  background-color: rgba(244, 200, 199, 0.727);
+}
+
+.background-circle:nth-child(8) {
+  width: 60px;
+  height: 60px;
+  bottom: 20%;
+  right: 8%;
+  background-color: rgba(244, 200, 199, 0.744);
+}
+
+/* Main content styles */
+
+.main-section {
+  background-color: #fefdec;
+  padding-top: 100px;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.custom-padding {
+  padding-bottom: 170px;
+}
+
+.founder-image {
+  width: 430px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.circle-design-wrapper {
+  position: absolute;
+  bottom: 5%;
+  right: 0;
+  width: 700px;
+  height: 600px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.circle2-design-img {
+  position: absolute;
+  top: -25px;
+  left: 10px;
+  width: 400px;
+  height: 400px;
+  z-index: 2;
+}
+
+.circle1-design-img {
+  position: absolute;
+  bottom: -60px;
+  right: -20px;
+  width: 400px;
+  height: 400px;
+  z-index: 1;
+}
+
+/* Fourth section styles */
+
+.fourth-about-section {
+  background-color: #f6ddd3;
+  padding-block: 70px;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+
+.fourth-heading {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.fourth-p {
+  font-size: 14px;
+}
+
+/* Call to action section styles */
+
+.action-section-about {
+  background-color: #012960;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  color: white;
+}
+
+@media (max-width: 425px) {
+  .about-section {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+
+  .about-container {
+    margin-top: 0;
+  }
+
+  .about-heading {
+    font-size: 25px;
+  }
+
+  .about-paragrapgh {
+    font-size: 12px;
+  }
+
+  .about-circle-design {
+    display: none;
+  }
+
+  /* second about section styles */
+
+  .second-about-section {
+    padding-block: 60px;
+  }
+
+  .second-container {
+    margin-top: 0;
+  }
+
+  .second-section-heading {
+    margin-bottom: 20px;
+  }
+
+  .about-circle-img {
+    width: 350px;
+    height: 350px;
+  }
+  .background-circles {
+    display: none;
+  }
+
+  /* main section styles */
+
+  .main-section {
+    padding-top: 60px;
+  }
+
+  .custom-padding {
+    padding-bottom: 80px;
+  }
+
+  .founder-image {
+    width: 330px;
+    height: 300px;
+  }
+
+  .circle-design-wrapper {
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    height: 450px;
+  }
+
+  .circle2-design-img {
+    top: 0;
+    left: 60px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .circle1-design-img {
+    bottom: 0;
+    right: -20px;
+    width: 200px;
+    height: 200px;
+  }
+
+  /* fourth section styles */
+
+  .fourth-heading {
+    font-size: 40px;
+  }
+
+  /* firms component res styles */
+  .fourth-about-section .firms-container {
+    position: relative;
+    bottom: -50px;
+    left: auto;
+    transform: none;
+    width: 100%;
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .circle-design-wrapper {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 320px) {
+  .about-circle-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .founder-image {
+    width: 260px;
+    height: 230px;
+  }
+
+  .circle-design-wrapper {
+    width: 400px;
+    height: 380px;
+  }
+}

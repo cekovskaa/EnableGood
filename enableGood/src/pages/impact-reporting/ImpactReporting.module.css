@@ -1,0 +1,32 @@
+.report-section {
+  background-color: #fefdec;
+
+  padding-top: 120px;
+}
+
+.report-heading {
+  margin-block: 50px;
+
+  text-align: center;
+}
+
+.report-heading h1 {
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.report-heading p {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.report-span {
+  font-weight: 600;
+}
+
+@media (max-width: 425px) {
+  .report-section {
+    padding-block: 60px;
+  }
+}

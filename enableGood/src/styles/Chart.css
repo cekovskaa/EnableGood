@@ -1,0 +1,9 @@
+.highcharts-root {
+  width: 300px;
+  height: 300px;
+}
+
+.highcharts-container {
+  width: 300px !important;
+  height: 300px !important;
+}
