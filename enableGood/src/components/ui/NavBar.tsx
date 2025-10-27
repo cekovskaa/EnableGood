@@ -10,7 +10,7 @@ export default function NavBar() {
       <div className="container d-flex align-items-center px-3 px-md-0 py-md-3">
         <Link className="navbar-brand" to="/">
           <img
-            src="/src/assets/images/Logo.png"
+            src="/images/Logo.png"
             alt="EnableGood Logo"
             className="logo-image"
           />

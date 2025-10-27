@@ -164,7 +164,7 @@ const Fourth = () => (
         <div className={styles["horizontal-cards-wrapper"]}>
           {/* <!-- Card 1 --> */}
           <div className={styles["scroll-card"]}>
-            <img src="/src/assets/images/image1.png" alt="Define ESG Goals" />
+            <img src="/images/image1.png" alt="Define ESG Goals" />
             <div className={styles["scroll-card-body"]}>
               <h3>Define your ESG goals</h3>
               <p>
@@ -176,7 +176,7 @@ const Fourth = () => (
 
           {/* <!-- Card 2 --> */}
           <div className={styles["scroll-card"]}>
-            <img src="/src/assets/images/image2.png" alt="Discover NGOs" />
+            <img src="/images/image2.png" alt="Discover NGOs" />
             <div className={styles["scroll-card-body"]}>
               <h3>Discover compatible NGOs</h3>
               <p>
@@ -189,7 +189,7 @@ const Fourth = () => (
           {/* <!-- Card 3 --> */}
           <div className={styles["scroll-card"]}>
             <img
-              src="/src/assets/images/image3.jpg"
+              src="/images/image3.jpg"
               alt="Connect and Collaborate"
             />
             <div className={styles["scroll-card-body"]}>
@@ -203,7 +203,7 @@ const Fourth = () => (
 
           {/* <!-- Card 4 --> */}
           <div className={styles["scroll-card"]}>
-            <img src="/src/assets/images/image4.jpg" alt="Track Impact" />
+            <img src="/images/image4.jpg" alt="Track Impact" />
             <div className={styles["scroll-card-body"]}>
               <h3>Track and Report Impact</h3>
               <p>
