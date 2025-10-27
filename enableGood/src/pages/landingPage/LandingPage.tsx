@@ -48,7 +48,7 @@ const Hero = () => (
           className={`${styles["hero-image-mobile"]} col-12 col-md-6 mt-5 mt-md-0 `}
         >
           <img
-            src="src/assets/images/hero-image.png"
+            src="/images/hero-image.png"
             alt="Hero image"
             className={styles["hero-image"]}
           />
