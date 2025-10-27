@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/enableGood/src/assets/images/Logo.png" alt="Enable Good Logo" width="200" height="50">
+  <img src="/enableGood/public/images/Logo.png" alt="Enable Good Logo" width="200" height="50">
 
 </div>
 
@@ -66,9 +66,9 @@ Enable Good serves as a bridge between:
 - Google Calendar integration for scheduling events
 - Role-based access control (authorized/unauthorized routes)
 
-➡️ [Calendar Page](/enableGood/src/assets/screenshots/calendar-screenshot.png)
+➡️ [Calendar Page](/enableGood/public/screenshots/calendar-screenshot.png)
 
-➡️ [Login Page](/enableGood/src/assets/screenshots/login-page-screenshot.png)
+➡️ [Login Page](/enableGood/public/screenshots/login-page-screenshot.png)
 
 #### **Onboarding Process**
 
@@ -78,7 +78,7 @@ Enable Good serves as a bridge between:
 - ESG (Environmental, Social, Governance) selection
 - SDG (Sustainable Development Goals) selection
 
-➡️ [Onboarding Process](/enableGood/src/assets/screenshots/onboarding-process-screenshot.png)
+➡️ [Onboarding Process](/enableGood/public/screenshots/onboarding-process-screenshot.png)
 
 #### **Matchmaking**
 
@@ -88,9 +88,9 @@ Enable Good serves as a bridge between:
 - Remove partners from saved list
 - Connect with partners directly through the platform
 
-➡️ [Matchmaking Page](/enableGood/src/assets/screenshots/matchmaking-screenshot.png)
+➡️ [Matchmaking Page](/enableGood/public/screenshots/matchmaking-screenshot.png)
 
-➡️ [Saved Partners Page](/enableGood/src/assets/screenshots/Saved-profiles-screenshot.png)
+➡️ [Saved Partners Page](/enableGood/public/screenshots/Saved-profiles-screenshot.png)
 
 #### **Explore**
 
@@ -99,16 +99,16 @@ Enable Good serves as a bridge between:
 - Connect with project owners
 - Quick access to project details
 
-➡️ [Explore Page User](/enableGood/src/assets/screenshots/explore-account-screenshot.png)
+➡️ [Explore Page User](/enableGood/public/screenshots/explore-account-screenshot.png)
 
 #### **Project Management**
 
 - Impact reporting and analytics
 - Partnership request management
 
-➡️ [Impact Reports Page](/enableGood/src/assets/screenshots/impact-reports-screenshot.png)
+➡️ [Impact Reports Page](/enableGood/public/screenshots/impact-reports-screenshot.png)
 
-➡️ [Partnership Request Page](/enableGood/src/assets/screenshots/partnership-request-screenshot.png)
+➡️ [Partnership Request Page](/enableGood/public/screenshots/partnership-request-screenshot.png)
 
 #### **Analytics & Reporting**
 
@@ -116,7 +116,7 @@ Enable Good serves as a bridge between:
 - Impact measurement tools
 - Progress tracking dashboards
 
-➡️ [Statistics Page](/enableGood/src/assets/screenshots/statistics-screenshot.png)
+➡️ [Statistics Page](/enableGood/public/screenshots/statistics-screenshot.png)
 
 #### **Verification System**
 
@@ -202,7 +202,7 @@ Enable Good serves as a bridge between:
 - Call-to-action for registration
 - Subscription Cards
 
-➡️ [Landing Page](/enableGood/src/assets/screenshots/landing-page-screenshot.png)
+➡️ [Landing Page](/enableGood/public/screenshots/landing-page-screenshot.png)
 
 ### **Account Dashboard**
 
@@ -212,7 +212,7 @@ Enable Good serves as a bridge between:
 - Share impact functionality
 - Statistics
 
-➡️ [Account Dashboard](/enableGood/src/assets/screenshots/dashboard-screenshot.png)
+➡️ [Account Dashboard](/enableGood/public/screenshots/dashboard-screenshot.png)
 
 ### **Explore Page**
 
@@ -220,7 +220,7 @@ Enable Good serves as a bridge between:
 - Different views for authorized/unauthorized users
 - Carousel navigation for logged-in users
 
-➡️ [Explore Page](/enableGood/src/assets/screenshots/explore-page-screenshot.png)
+➡️ [Explore Page](/enableGood/public/screenshots/explore-page-screenshot.png)
 
 ### **Profile Management**
 
@@ -228,7 +228,7 @@ Enable Good serves as a bridge between:
 - Verification status and badge display
 - Billing display and information
 
-➡️ [User Profile Page](/enableGood/src/assets/screenshots/profile-page-screenshot.png)
+➡️ [User Profile Page](/enableGood/public/screenshots/profile-page-screenshot.png)
 
 ### **Verification Process**
 
@@ -237,7 +237,7 @@ Enable Good serves as a bridge between:
 - Certification tier information
 - Progress tracking
 
-➡️ [Verification Process](/enableGood/src/assets/screenshots/verification-process-screenshot.png)
+➡️ [Verification Process](/enableGood/public/screenshots/verification-process-screenshot.png)
 
 ## Credits
 

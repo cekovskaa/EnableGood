@@ -8,7 +8,7 @@ export const testimonialsData = [
     name: "Luis F.",
     position: "Director",
     company: "Future City Lab",
-    avatar: "/src/assets/images/image1-carosel.png",
+    avatar: "/images/image1-carosel.png",
     statistic: {
       value: "97%",
       label: "Matching Rate",
@@ -23,7 +23,7 @@ export const testimonialsData = [
     name: "Elena M.",
     position: "Partnership Manager",
     company: "Global Impact Alliance",
-    avatar: "/src/assets/images/image2-carosel.png",
+    avatar: "/images/image2-carosel.png",
     statistic: {
       value: "78%",
       label: "Matching Rate",
@@ -37,7 +37,7 @@ export const testimonialsData = [
     name: "Joana P.",
     position: "Co-Founder",
     company: "Threads for Change",
-    avatar: "/src/assets/images/image3-carosel.png",
+    avatar: "/images/image3-carosel.png",
     statistic: {
       value: "85%",
       label: "Matching Rate",
@@ -52,7 +52,7 @@ export const testimonialsData = [
     name: "David L.",
     position: "Head of Sustainability",
     company: "Terranova Group",
-    avatar: "/src/assets/images/image4-carosel.png",
+    avatar: "/images/image4-carosel.png",
     statistic: {
       value: "88%",
       label: "Matching Rate",

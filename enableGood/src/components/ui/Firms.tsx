@@ -19,7 +19,7 @@ const Firms: React.FC<FirmsProps> = ({ isBlackLogos = false }) => {
         {logos.map((logo, index) => (
           <li key={index} className="li-item">
             <img
-              src={`/src/assets/images/logo-${logo.filename}${
+              src={`/images/logo-${logo.filename}${
                 isBlackLogos ? "-black" : ""
               }.png`}
               alt={`${logo.name} Logo`}

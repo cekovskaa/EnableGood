@@ -49,7 +49,7 @@ export default function SecondCards() {
           <div className="col-12 col-md-3">
             <div className={`card h-100 ${styles["middle-cards"]}`}>
               <img
-                src="/src/assets/images/landing-page-1.png"
+                src="/images/landing-page-1.png"
                 className="card-img-top"
                 alt="Tiered Certification image"
               />
@@ -66,7 +66,7 @@ export default function SecondCards() {
           <div className="col-12 col-md-3">
             <div className={`card h-100 ${styles["middle-cards"]}`}>
               <img
-                src="/src/assets/images/landing-page-2.png"
+                src="/images/landing-page-2.png"
                 className="card-img-top"
                 alt="Tiered Certification image"
               />

@@ -91,12 +91,12 @@ export default function Impact(): JSX.Element {
               <div className="col-12 col-md-3 ">
                 <div className="impact-circle-smaller">
                   <img
-                    src="/src/assets/images/image1-circle.png"
+                    src="/images/image1-circle.png"
                     alt="Africa image"
                   />
                   <div className="impact-overlay">
                     <img
-                      src="/src/assets/images/vector1.png"
+                      src="/images/vector1.png"
                       alt="overlay"
                       className="overlay-shape"
                     />
@@ -110,12 +110,12 @@ export default function Impact(): JSX.Element {
               <div className="col-12 col-md-3 ">
                 <div className="impact-circle-bigger">
                   <img
-                    src="/src/assets/images/image2-circle.png"
+                    src="/images/image2-circle.png"
                     alt="Asia image"
                   />
                   <div className="impact-overlay">
                     <img
-                      src="/src/assets/images/vector2.png"
+                      src="/images/vector2.png"
                       alt="overlay"
                       className="overlay-shape"
                     />
@@ -129,12 +129,12 @@ export default function Impact(): JSX.Element {
               <div className="col-12 col-md-3 ">
                 <div className="impact-circle-bigger">
                   <img
-                    src="/src/assets/images/image3-circle.png"
+                    src="/images/image3-circle.png"
                     alt="South America image"
                   />
                   <div className="impact-overlay">
                     <img
-                      src="/src/assets/images/vector3.png"
+                      src="/images/vector3.png"
                       alt="overlay"
                       className="overlay-shape"
                     />
@@ -148,12 +148,12 @@ export default function Impact(): JSX.Element {
               <div className="col-12 col-md-3 ">
                 <div className="impact-circle-smaller">
                   <img
-                    src="/src/assets/images/image4-circle.png"
+                    src="/images/image4-circle.png"
                     alt="Other Regions image"
                   />
                   <div className="impact-overlay">
                     <img
-                      src="/src/assets/images/vector4.png"
+                      src="/images/vector4.png"
                       alt="overlay"
                       className="overlay-shape"
                     />
