@@ -241,7 +241,7 @@ Enable Good serves as a bridge between:
 
 ## Credits
 
-- **Design:** provided by Brainster Frontent Academy - figma design
+- **Design:** provided by Brainster Frontend Academy - figma design
 - **Icons and images** provided by figma design hackaton
 
 **Enable Good** - Connecting companies and NGOs for meaningful social impact collaboration.
