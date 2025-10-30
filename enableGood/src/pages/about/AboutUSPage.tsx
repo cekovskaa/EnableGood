@@ -55,12 +55,12 @@ const AboutHero = () => (
         <div className="col-12 col-md-5">
           <div className={styles["about-img-container"]}>
             <img
-              src="/src/assets/images/about-us-hero.png"
+              src="/images/about-us-hero.png"
               alt="About us image"
               className={styles["about-us-image"]}
             />
             <img
-              src="/src/assets/images/testimonials-circles.png"
+              src="/images/testimonials-circles.png"
               alt="Design circles"
               className={styles["about-circle-design"]}
             />
@@ -74,27 +74,27 @@ const AboutHero = () => (
 const SecondSection = () => {
   const values = [
     {
-      image: "/src/assets/images/about-circle1.png",
+      image: "/images/about-circle1.png",
       label: "Kindness",
       alt: "Kindness image",
     },
     {
-      image: "/src/assets/images/about-circle2.png",
+      image: "/images/about-circle2.png",
       label: "Integrity",
       alt: "Integrity image",
     },
     {
-      image: "/src/assets/images/about-circle3.png",
+      image: "/images/about-circle3.png",
       label: "Respect",
       alt: "Respect image",
     },
     {
-      image: "/src/assets/images/about-circle4.png",
+      image: "/images/about-circle4.png",
       label: "Inclusivity",
       alt: "Inclusivity image",
     },
     {
-      image: "/src/assets/images/about-circle5.png",
+      image: "/images/about-circle5.png",
       label: "Transparency",
       alt: "Transparency image",
     },
@@ -163,12 +163,12 @@ const MainContent = () => (
       />
       <div className={styles["circle-design-wrapper"]}>
         <img
-          src="/src/assets/images/circle-design2.png"
+          src="/images/circle-design2.png"
           alt="Circle design image"
           className={styles["circle2-design-img"]}
         />
         <img
-          src="/src/assets/images/circle-design1.png"
+          src="/images/circle-design1.png"
           alt="Circle design image"
           className={styles["circle1-design-img"]}
         />

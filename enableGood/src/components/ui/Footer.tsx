@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="container">
         <div className="row d-flex align-items-center">
           <div className="col-12 col-md-3 text-center text-md-start mb-5 mb-md-0">
-            <img src="/src/assets/images/Logo.png" alt="Logo image" />
+            <img src="/images/Logo.png" alt="Logo image" />
           </div>
           <div className="col-12 col-md-6">
             <p className="text-center copyright-text mb-5 mb-md-0">

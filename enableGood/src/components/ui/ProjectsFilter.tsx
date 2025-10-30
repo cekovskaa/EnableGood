@@ -256,17 +256,17 @@ export default function ProjectsFilter({
             </span>
             <div className="partners-logos d-flex justify-content-start align-items-center g-3">
               <img
-                src="/src/assets/images/cocacola-logo.png"
+                src="/images/cocacola-logo.png"
                 alt="Cocacola logo"
               />
-              <img src="/src/assets/images/msf-logo.png" alt="Msf logo" />
+              <img src="/images/msf-logo.png" alt="Msf logo" />
               <img
-                src="/src/assets/images/stc-logo.png"
+                src="/images/stc-logo.png"
                 alt="Save the children logo"
                 className="stc-img"
               />
               <img
-                src="/src/assets/images/patagonia-logo.png"
+                src="/images/patagonia-logo.png"
                 alt="Patagonia logo"
               />
             </div>
@@ -282,7 +282,7 @@ export default function ProjectsFilter({
               {!showVideo ? (
                 <>
                   <img
-                    src="/src/assets/images/explore-page-image.png"
+                    src="/images/explore-page-image.png"
                     alt="Video image"
                     className="project-image"
                   />

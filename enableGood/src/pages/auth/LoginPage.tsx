@@ -220,7 +220,7 @@ export default function LoginPage() {
               <h2 className={styles["brand-title"]}>Enable Good</h2>
               <p className={styles["brand-subtitle"]}>CONNECTING GOOD</p>
               <img
-                src="/src/assets/images/hero-image.png"
+                src="/images/hero-image.png"
                 alt="Circle design logo"
                 className={styles["login-logo"]}
               />

@@ -42,7 +42,7 @@ export default function ProjectCard({
         {project.partners.map((partner) => (
           <img
             key={partner}
-            src={`/src/assets/images/${partner}`}
+            src={`/images/${partner}`}
             alt={`${partner.replace("-logo.png", "")} logo`}
             className="partner-logo"
           />

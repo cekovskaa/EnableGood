@@ -12,7 +12,7 @@ export default function ReportCards() {
                 Urban Foodbank Network Q1 2025 Outcome Summary
               </h3>
               <img
-                src="/src/assets/images/report-card1.png"
+                src="/images/report-card1.png"
                 alt="Impact card image"
                 className="impact-card-img"
               />
@@ -30,7 +30,7 @@ export default function ReportCards() {
                 Water Access Project Spring 2025 Field Report
               </h3>
               <img
-                src="/src/assets/images/report-card2.png"
+                src="/images/report-card2.png"
                 alt="Impact card image"
                 className="impact-card-img"
               />
@@ -48,7 +48,7 @@ export default function ReportCards() {
                 Water Access Project Spring 2025 Field Report
               </h3>
               <img
-                src="/src/assets/images/report-card1.png"
+                src="/images/report-card1.png"
                 alt="Impact card image"
                 className="impact-card-img"
               />
@@ -66,7 +66,7 @@ export default function ReportCards() {
                 Water Access Project Spring 2025 Field Report
               </h3>
               <img
-                src="/src/assets/images/report-card4.png"
+                src="/images/report-card4.png"
                 alt="Impact card image"
                 className="impact-card-img"
               />

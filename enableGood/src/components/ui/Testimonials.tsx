@@ -126,7 +126,7 @@ export default function Testimonials({ testimonials }: TestimonialsProps) {
                               {testimonial.statistic.label}
                             </div>
                             <img
-                              src="/src/assets/images/testimonials-circles.png"
+                              src="/images/testimonials-circles.png"
                               alt="Design circles"
                               className="testimonials-circle-design"
                             />

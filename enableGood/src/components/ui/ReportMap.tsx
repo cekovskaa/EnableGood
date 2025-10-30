@@ -7,7 +7,7 @@ export default function ReportMap() {
         <h4 className="text-center mb-5">View Our Global Reach</h4>
         <div className="report-map">
           <img
-            src="/src/assets/images/world-map.png"
+            src="/images/world-map.png"
             alt="Report map image"
             className="report-map-image"
           />

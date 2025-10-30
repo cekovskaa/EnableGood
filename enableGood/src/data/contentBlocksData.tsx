@@ -39,7 +39,7 @@ export const problemSolveBlock: Omit<ContentBlockProps, "className"> = {
       </p>
     </>
   ),
-  imageSrc: "/src/assets/images/problem-solve.png",
+  imageSrc: "/images/problem-solve.png",
   imageAlt: "Problem solving image",
   imageClassName: "about-us-image",
   imageOnRight: true,
@@ -69,7 +69,7 @@ export const ourSolution: Omit<ContentBlockProps, "className"> = {
       </p>
     </>
   ),
-  imageSrc: "/src/assets/images/our-solution.png",
+  imageSrc: "/images/our-solution.png",
   imageAlt: "Our solutions image",
   imageClassName: "about-us-image",
   imageOnRight: false,
@@ -101,7 +101,7 @@ export const founderCeo: Omit<ContentBlockProps, "className"> = {
       </div>
     </>
   ),
-  imageSrc: "/src/assets/images/founder-ceo.png",
+  imageSrc: "/images/founder-ceo.png",
   imageAlt: "CEO image",
   imageClassName: "",
   imageOnRight: true,
