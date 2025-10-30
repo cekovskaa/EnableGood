@@ -27,7 +27,7 @@ const FourtSection = () => (
       </div>
       <div className="col-12 col-md-6 px-0">
         <img
-          src="/src/assets/images/learn-more2-img.png"
+          src="/images/learn-more2-img.png"
           alt="Learn More image"
           className={styles["fourth-section-img"]}
         />

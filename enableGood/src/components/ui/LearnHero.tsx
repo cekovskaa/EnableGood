@@ -44,7 +44,7 @@ export default function LearnHero({
               {!playVideo ? (
                 <>
                   <img
-                    src="/src/assets/images/learn-hero-img.png"
+                    src="/images/learn-hero-img.png"
                     alt="Learn hero image"
                     className="learn-hero-img"
                   />
